@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link href="style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+
+<body>
+
+    <nav>
+        <div class="logo">
+
+        </div>
+        <div class="nav-links">
+            <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">My work</a></li>
+                <li><a href="#contact">Contact</a></li>
+
+            </ul>
+
+        </div>
+    </nav>
+
+    <header id="header">
+        <div class="container">
+            <div id="content-text">
+                <h1>Hi, I'm <br><span>Satish Biradar</span></h1>
+            </div>
+        </div>
+    </header>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <!-- About Section -->
+    <section id="about" class="scroll-offset">
+        <div class="content">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/dd.jpg" height="800px" width="35px">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab(event, 'Education')">Education</p>
+                        <p class="tab-links" onclick="opentab(event, 'Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab(event, 'Projects')">Projects</p>
+                    </div>
+
+                    <div class="tab-content active-tab" id="Education">
+                        <ul>
+                            <li>
+                                <span>Excellent English Medium School, Vijayapur</span><br> I completed my primary and high school education at Excellent School, Vijayapur, with 86%.
+                                <br>
+                                <br>
+                                <a href="https://www.excellentschool.in">
+                                    <img src="images/kk.jpeg" alt="Excellent School" width="100" height="100">
+                                </a>
+                            </li>
+                            <br>
+                            <li>
+                                <span>ICS Mahesh PU Science College, Dharwad</span><br> I completed my PUC at ICS Mahesh College, Dharwad, with 82%.<br>
+                                <a href="https://www.icsmpucollege.com">
+                                    <img src="images/th.jpeg" alt="ICS Mahesh College" width="100" height="100">
+                                </a>
+                            </li>
+                            <br>
+                            <li>
+                                <span>Jain College of Engineering and Research, Belagavi</span><br> I am currently pursuing a Bachelor's in Computer Science Engineering.<br>
+                                <a href="https://jcer.in">
+                                    <img src="images/gg.jpg" alt="JCER College" width="100" height="100">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-content" id="Skills">
+                        <ul>
+                            <li>
+                                <span>HTML</span><br>
+                                <img src="images/rr.png" width="150" height="200" alt="HTML Logo"><br> I have a strong understanding of HTML and can structure web pages using semantic elements.
+                            </li>
+                            <li>
+                                <span>CSS</span><br>
+                                <img src="images/ii.png" width="150" height="200" alt="CSS Logo"><br> I can style web pages with responsive designs using CSS.
+                            </li>
+                            <li>
+                                <span>JavaScript</span><br>
+                                <img src="images/ww.png.crdownload" width="150" height="200" alt="JavaScript Logo"><br> I can implement interactive features using JavaScript.
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-content" id="Projects">
+                        <ul>
+                            <li>
+                                <span>Gmail Alerts On WhatsApp</span><br> This project integrates Gmail functionalities with WhatsApp to share alerts and notifications seamlessly.
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="scroll-offset">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>I craft clean, modern, and responsive websites that enhance user experience. My designs focus on usability, aesthetics, and performance. From landing pages to full websites, I bring ideas to life on the web. Skilled in HTML, CSS, and
+                        modern frameworks like Bootstrap and Tailwind. Let's build something beautiful and functional together!
+
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-cloud"></i>
+                    <h2>Cloud Solutions</h2>
+                    <p>I provide scalable and secure cloud-based solutions tailored to business needs. Skilled in deploying applications on AWS, Azure, and Google Cloud. I optimize infrastructure for performance, cost-efficiency, and reliability. From cloud
+                        migration to serverless computing, I handle it all. Empowering businesses through smart, cloud-native strategies.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>I create intuitive and user-friendly mobile app interfaces. Focused on seamless user experience with clean, modern designs. Proficient in designing for both Android and iOS platforms. I turn ideas into interactive and engaging app
+                        prototypes. My designs blend functionality with aesthetic appeal.
+
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="scroll-offset">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/tt.jpeg" alt="Social Media App">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>I developed a fully functional social media app from scratch. It includes features like user authentication, posts, likes, comments, and real-time chat. The UI is clean, responsive, and user-friendly across all devices. Backend
+                            is powered by [your tech stack, e.g., Node.js & MongoDB], ensuring smooth performance. This project showcases my skills in full-stack development and modern UI design.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/th1.jpeg" alt="Music App">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>I created a sleek and interactive music streaming app. Users can browse, search, and play songs with high-quality audio. Features include playlists, favorites, and a smooth audio player UI. Built using [your tech stack, e.g., Flutter
+                            & Firebase] for fast and reliable performance. This project highlights my skills in mobile app development and audio integration.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/rrr.png" alt="WhatsApp Clone">
+                    <div class="layer">
+                        <h3>Cloud computing</h3>
+                        <p>I successfully completed a comprehensive course on Cloud Computing. Gained hands-on experience with services like AWS, Azure, and Google Cloud. Learned about cloud architecture, deployment models, and virtualization. Worked on
+                            real-world projects involving cloud storage and server management. This course strengthened my foundation in scalable and secure cloud solutions.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <!-- Contact Section -->
+    <section id="contact" class="scroll-offset">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> satishdbiradar16@gmail.com</p>
+                    <p><i class="fa-solid fa-phone-flip"></i> 8123398654</p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/invites/contact/?igsh=2vaxg4mftqob&utm_content=olyguzl"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://youtube.com/@sbgaming-sp3ql?si=GSl2RjxBwubo7ZK5"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="https://www.linkedin.com/in/satish-biradar-4aa2152a2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- JavaScript -->
+    <script>
+        function opentab(event, tabname) {
+            const tablinks = document.getElementsByClassName("tab-links");
+            const tabcontents = document.getElementsByClassName("tab-content");
+
+            for (let tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (let tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+
+            document.getElementById(tabname).classList.add("active-tab");
+            event.currentTarget.classList.add("active-link");
+        }
+    </script>
+</body>
+
+</html>
